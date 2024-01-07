@@ -1,3 +1,6 @@
 go 1.21.5
 
-use ./01_hello
+use (
+	./01_hello
+	./02_variable
+)

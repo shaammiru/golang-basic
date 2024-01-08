@@ -3,4 +3,8 @@ go 1.21.5
 use (
 	./01_hello
 	./02_variable
+	./03_data_type
+	./04_operator
+	./05_condition
+	./06_looping
 )

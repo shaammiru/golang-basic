@@ -35,5 +35,10 @@ func main() {
 		// append()
 		cFruits := append(fruits, "papaya")
 		fmt.Println(cFruits)
+
+		// copy()
+		dFruits := make([]string, 2)
+		copy(dFruits, fruits)
+		fmt.Println(dFruits)
 	}
 }

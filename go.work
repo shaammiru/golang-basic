@@ -9,4 +9,5 @@ use (
 	./06_looping
 	./07_array
 	./08_slice
+	./09_map
 )

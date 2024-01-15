@@ -40,5 +40,12 @@ func main() {
 		dFruits := make([]string, 2)
 		copy(dFruits, fruits)
 		fmt.Println(dFruits)
+
+		// 3 Index 
+		eFruits := fruits[0:2]
+		fFruits := fruits[0:2:2] // Last :2 is size of slice
+
+		fmt.Println(len(eFruits), cap(eFruits))
+		fmt.Println(len(fFruits), cap(fFruits))
 	}
 }

@@ -25,7 +25,6 @@ func main() {
 		// Add new item
 		capitals["South Korea"] = "Seoul"
 
-
 		// Delete item
 		delete(capitals, "Japan")
 
@@ -45,6 +44,21 @@ func main() {
 			fmt.Println(japan)
 		} else {
 			fmt.Println("Japan not found")
+		}
+	}
+
+	/* Array Map
+	Map juga bisa berisi array, slice, atau map lainnya.
+	*/
+	{
+		cars := []map[string]string{
+			{"name": "Avanza", "color": "white"},
+			{"name": "Xenia", "color": "black"},
+			{"name": "Jazz", "color": "red"},
+		}
+
+		for _, v := range cars {
+			fmt.Println(v["name"], ":", v["color"])
 		}
 	}
 }

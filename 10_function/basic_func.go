@@ -18,7 +18,7 @@ func sayHello() {
 
 // Function with parameter
 // func sum(first, second int)
-func sum(first int, second int) {
+func addTwoNumber(first int, second int) {
 	fmt.Println(first + second)
 }
 

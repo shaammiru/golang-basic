@@ -27,4 +27,19 @@ func main() {
 	sliceNumbers := []int{10, 20, 30, 40, 50}
 	totalSum = sum(sliceNumbers...)
 	fmt.Println(totalSum)
+
+	// Closure as function variable
+	closureAsVar()
+
+	// Immediately-invoked function expression (IIFE)
+	iife()
+
+	// Closure as return value
+	getName := closureAsReturnValue()
+	fmt.Println(getName())
+
+	// Function as parameter
+	functionAsParameter("John", func(name string) {
+		fmt.Println("Hello", name)
+	})
 }

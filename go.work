@@ -11,4 +11,5 @@ use (
 	./08_slice
 	./09_map
 	./10_function
+	./11_pointer
 )

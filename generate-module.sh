@@ -16,3 +16,5 @@ echo "package main" >> main.go
 # Add to workspace
 cd ..
 go work use $1
+
+echo "Module $1 created"

@@ -13,4 +13,5 @@ use (
 	./10_function
 	./11_pointer
 	./12_struct
+	./13_method
 )

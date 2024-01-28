@@ -15,4 +15,5 @@ use (
 	./12_struct
 	./13_method
 	./14_property_modifier
+	./15_interface
 )

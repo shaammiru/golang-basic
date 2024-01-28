@@ -16,4 +16,5 @@ use (
 	./13_method
 	./14_property_modifier
 	./15_interface
+	./16_reflect
 )

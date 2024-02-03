@@ -17,4 +17,5 @@ use (
 	./14_property_modifier
 	./15_interface
 	./16_reflect
+	./17_goroutine
 )

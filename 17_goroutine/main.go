@@ -5,6 +5,11 @@ import (
 	"runtime"
 )
 
+/* Goroutine
+- Goroutine adalah cara untuk membuat proses yang berjalan secara asynchronous
+- Goroutine mirip dengan thread, namun lebih efisien
+*/
+
 func main() {
 	runtime.GOMAXPROCS(2)
 

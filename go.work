@@ -18,4 +18,5 @@ use (
 	./15_interface
 	./16_reflect
 	./17_goroutine
+	./18_channel
 )

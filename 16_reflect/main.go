@@ -12,7 +12,7 @@ import (
 
 func main() {
 	{
-		fmt.Println(">> Reflect Usage <<")
+		fmt.Println(">> Reflect Example <<")
 		age := 24
 		reflectValue := reflect.ValueOf(age)
 		reflectType := reflect.TypeOf(age)

@@ -19,4 +19,5 @@ use (
 	./16_reflect
 	./17_goroutine
 	./18_channel
+	./19_defer_exit
 )

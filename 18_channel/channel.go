@@ -40,3 +40,7 @@ func bufferedChannel() {
 
 	time.Sleep(1 * time.Nanosecond)
 }
+
+func selectChannel() {
+
+}

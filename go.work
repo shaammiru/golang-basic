@@ -1,4 +1,4 @@
-go 1.21.6
+go 1.22.0
 
 use (
 	./01_hello
@@ -20,4 +20,5 @@ use (
 	./17_goroutine
 	./18_channel
 	./19_defer_exit
+	./20_error_panic_recover
 )

@@ -22,4 +22,5 @@ use (
 	./19_defer_exit
 	./20_error_panic_recover
 	./21_format_string
+	./22_random
 )

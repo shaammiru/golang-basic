@@ -23,6 +23,5 @@ use (
 	./20_error_panic_recover
 	./21_format_string
 	./22_random
-	./23_time_parsing
-	./24_timer_ticker_scheduler
+	./23_time
 )

@@ -24,4 +24,7 @@ use (
 	./21_format_string
 	./22_random
 	./23_time
+	./24_datatype_conversion
+	./25_string_function
+	./26_regex
 )
